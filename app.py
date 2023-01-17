@@ -10,8 +10,8 @@ from fastapi.security import OAuth2PasswordBearer
 
 
 
-AUTH0_DOMAIN = "dev-52cl1dvvr1vlazaj.us.auth0.com"
-API_IDENTIFIER = "lPkzDKPpUh65qd9SGeMCgYbxDxvuC41Y"
+AUTH0_DOMAIN = "YOUR_AUTH0_DOMAIN_HERE"
+API_IDENTIFIER = "YOUR_API_IDENTIFIER_HERE"
 ALGORITHMS = ["RS256"]
 
 app = FastAPI()
